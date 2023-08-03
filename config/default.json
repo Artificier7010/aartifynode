@@ -1,0 +1,14 @@
+{
+    "App": {
+        "host": "localhost",
+        "port": "7001"
+    },
+    "DB": {
+        "port": "27017",
+        "name": "Auth02",
+        "user": "Demo",
+        "password": "password-Demo",
+        "host": "demo.uh3bg.mongodb.net"
+    },
+    "SECRET": "bhbicuiohuiehvu9gh9fhjhiuegh97ry97yct5hicyt9cyx9y997t789TX78T78T8Y8Gyf76f86rr66rrtG76g^tTRf&f67f&F&F7d9uf974yh3hdhr90r-rjdxry98y3984ytrq98xnxuysy97Y(&Y&S*87t8ggt6t76zte76t76R75R75ER76TV76TVQ68TV68ITtt76it68R&^%^654^%#^drd6e446WS%YD%ESWnufeeuigbfs4tt8t78tv86xt8s"
+}
