@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <div class="login-container">
+        <form action="http://localhost:7001/api/users/login" method="post" class="login-form">
+            <div class="input-group">
+                <label for="email">E-mail</label>
+                <input type="text" name="email" id="email" placeholder="E-mail">
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="Password">
+            </div>
+    
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
