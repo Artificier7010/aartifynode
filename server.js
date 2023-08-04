@@ -2,6 +2,7 @@ import config from "config";
 import express from "express";
 import bodyParser from "body-parser";
 import cookieParser from "cookie-parser";
+import cors from "cors";
 
 // Importing Users Router
 import usersRoute from "./routers/users.js";
@@ -12,7 +13,11 @@ import errorHandler from "./middleware/errorHandler.js";
 
 const app = express();
 
-app.use(bodyParser.json());
+app.use(cors());
+
+app.use(bodyParser.json({
+    extended: true
+}));
 app.use(bodyParser.urlencoded({
     extended: false
 }));
