@@ -4,6 +4,7 @@ import mongoose from "mongoose";
 
 // Importing Schemas
 import usersSchema from "./schema/Users.js";
+import employeesSchema from "./schema/Employees.js";
 
 // DB connection String
 const uri = `mongodb+srv://${config.get("DB.user")}:${config.get("DB.password")}@${config.get("DB.host")}/${config.get("DB.name")}?retryWrites=true&w=majority`;
@@ -19,3 +20,4 @@ try {
 
 // Creating Collection for the Schemas
 export const Users = mongoose.model("Users", usersSchema, "Users");
+export const Employees = mongoose.model("Employees", employeesSchema, "Employees");
